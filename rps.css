@@ -1,0 +1,20 @@
+body{
+    background-color: #f7f7f7;
+   }
+    body, input, textarea, button, select {
+        font-size: 15px;
+        font-family: Karla,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        color: #666;
+        line-height: 1.375;}
+       
+    *, *:before, *:after {
+           box-sizing: border-box;
+       }    
+   
+    body {
+           display: block;
+           margin: 8px;
+       }
+   
