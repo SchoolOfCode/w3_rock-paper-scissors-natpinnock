@@ -4,6 +4,61 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
     <title>Rock, Paper, Scissors</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <h1>ROCK PAPER SCISSORS</h1>
+    <form>
+      <label form="name">Type your name in here:</label>
+      <input id="#name" type="text" />
+      <input id="#submit" type="submit" value="Submit" />
+    </form>
+    <p id="#startgame"></p>
+    <section class="game-buttons">
+      <button class="player-move">rock</button>
+      <button class="player-move">paper</button>
+      <button class="player-move">scissors</button>
+    </section>
+
+    <section class="gameplay">
+      <section class="stats">
+        <h3>Your Move</h3>
+        <p class="player-moves"></p>
+      </section>
+      <section class="stats">
+        <h3>Computer Move</h3>
+        <p class="computer-moves"></p>
+      </section>
+      <section class="stats">
+        <h3>Win, Lose or Draw?</h3>
+        <p class="result"></p>
+      </section>
+      <section class="stats">
+        <h3>Total Score</h3>
+        <p class="total-score"></p>
+      </section>
+      <section class="stats">
+        <h3>Games Played</h3>
+        <p class="games-played"></p>
+      </section>
+      <section class="stats">
+        <h3>Number of wins</h3>
+        <p class="win-total"></p>
+      </section>
+      <section class="stats">
+        <h3>Number of Draws</h3>
+        <p class="draw-total"></p>
+      </section>
+      <section class="stats">
+        <h3>Number of Losses</h3>
+        <p class="loss-total"></p>
+      </section>
+    </section>
+    <button class="end-game">Finish Game!</button>
+    <script src="main.js"></script>
+  </body>
 </html>

@@ -1,0 +1,47 @@
+html {
+  background-color: #ff006e;
+  font-family: "Concert One", cursive;
+  font-size: x-large;
+}
+
+h1 {
+  text-align: center;
+  background-color: #fee440;
+}
+
+.game-buttons {
+  display: flex;
+  justify-content: center;
+}
+.player-move {
+  display: flex;
+  margin: 0.1em 0.2em;
+  background-color: #fee440;
+  padding: 0.3em;
+}
+
+.player-move {
+  display: flex;
+  font-family: "Concert One", cursive;
+  border: none;
+  color: black;
+  font-size: 3em;
+  text-align: center;
+}
+
+.gameplay {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.stats {
+  background-color: #fee440;
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  flex-flow: column nowrap;
+  text-align: center;
+  padding: 1px;
+  margin: 5px;
+}

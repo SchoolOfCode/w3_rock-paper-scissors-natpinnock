@@ -96,3 +96,14 @@ Some resources:
 - [Colour schemes](https://coolors.co/generate)
 - [Gradients](https://uigradients.com/)
 - [Box shadows](https://getcssscan.com/css-box-shadow-examples)
+
+## Things still to do...
+
+- Bonus tasks
+- More CSS styling
+- Media Queries
+- Hide form on successful submit
+- Hide game until form complete
+- Reload page on click of alert.
+- Change end game alert to use DOM
+- REFACTOR!
