@@ -5,13 +5,22 @@ form.addEventListener("submit", getUserName);
 let userName = "";
 function getUserName(e) {
   e.preventDefault();
+  let letters = /^[A-Za-z]+$/;
+  let capitals = /[A-Z]/;
   userName = document.getElementById("#name").value;
-  if (userName.length < 11) {
-    let userMessage = document.getElementById("#startgame");
-    userMessage.innerText = `Hello ${userName}! Select Rock, Paper or Scissors to start the game!`;
-  } else {
+  console.log(userName.match(letters));
+  if (userName.length >= 10) {
     let userMessage = document.getElementById("#startgame");
     userMessage.innerText = `User name must be less than 10 characters long!`;
+  } else if (userName.match(letters) === null) {
+    let userMessage = document.getElementById("#startgame");
+    userMessage.innerText = `User name must contain letters only!`;
+  } else if (userName.charAt(0) !== userName.charAt(0).toUpperCase()) {
+    let userMessage = document.getElementById("#startgame");
+    userMessage.innerText = `User name must start with a capital letter!`;
+  } else {
+    let userMessage = document.getElementById("#startgame");
+    userMessage.innerText = `Hello ${userName}! Select Rock, Paper or Scissors to start the game!`;
   }
 }
 

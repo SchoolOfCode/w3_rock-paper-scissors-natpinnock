@@ -99,7 +99,6 @@ Some resources:
 
 ## Things still to do...
 
-- Bonus tasks
 - More CSS styling
 - Media Queries
 - Hide form on successful submit
